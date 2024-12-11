@@ -5,6 +5,7 @@ import ProductRow from './ProductRow';
 export default function ProductTable({ products, filterText, inStock }) {
     const row=[]
     let last_category=null
+console.log(row);
 
     products.forEach((product) => {
         
